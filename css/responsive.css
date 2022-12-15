@@ -1,0 +1,115 @@
+@media only screen and (min-width: 768px) {
+	body {
+		background-color: #f0f0f0;
+	}
+	.header {
+		padding-top: 44px;
+		padding-left: 20%;
+	}
+	.logo{
+		width: 140px;
+		height: auto;
+	}
+	.text-content {
+		padding-left: 20%;
+		padding-top: 80px;
+	}
+	.message {
+		margin: 16px 0;
+		width: 412px;
+	}
+	.fancy-input {
+	    max-width: 420px;
+	}
+	.fancy-container {
+	    margin-top: 3%;
+		-webkit-box-shadow: 0px 6px 13px -5px rgba(79,79,79,0.51); 
+		box-shadow: 0px 6px 13px -5px rgba(79,79,79,0.51);		
+	}
+}
+@media only screen and (max-width: 767.9px) {
+	footer {
+		bottom: -120px;
+	}
+	.hero-xs {
+		margin: 0 auto;
+		display: block;
+		width: 94%;	
+	}
+	.bg-pattern {
+		background:none;
+	}
+	body, html{
+		position: fixed;
+	}
+	.header {
+		padding:26px;
+		padding-left: 36px;
+	}
+	.logo{
+		height: 30px;
+		width: auto;
+	}
+	.text-content {
+		padding-top: 44px;	
+	}
+	.title {
+		text-align: center;
+		margin: 0 auto;
+		font-size: 42px;
+		letter-spacing: 12px;
+		line-height: 51px;
+		padding-top: 20px;
+	}
+	.message {
+		text-align: center;
+		padding: 0 64px;
+		padding-top: 20px;
+	}
+	.fancy-input {
+		max-width: 74%;
+		margin:0 auto;
+	}
+	.mailbox {
+		padding: 16px 16px;
+	}
+	textarea:focus,
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="datetime"]:focus,
+	input[type="datetime-local"]:focus,
+	input[type="date"]:focus,
+	input[type="month"]:focus,
+	input[type="time"]:focus,
+	input[type="week"]:focus,
+	input[type="number"]:focus,
+	input[type="email"]:focus,
+	input[type="url"]:focus,
+	input[type="search"]:focus,
+	input[type="tel"]:focus,
+	input[type="color"]:focus,
+	.uneditable-input:focus {   
+		height:58px;
+	}
+	.fancy-btn {
+	padding: 17px 34px;
+	}
+	.input-group-btn {
+		margin-left: -46px;
+	}
+	.uneditable-input:focus,
+	.custom-select.is-invalid,
+	.form-control.is-invalid,
+	.was-validated .custom-select:invalid,
+	.was-validated .form-control:invalid {   
+		height:58px;
+		background-position-x: 80%;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1199px) {
+	.hero-image {
+	    width: auto;
+		height: auto;
+		overflow: hidden;
+	}
+}
